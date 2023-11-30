@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="60dp"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/your_friends"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/listView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_marginEnd="20dp"
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/searchUsers"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView8" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="123dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/layout_round_white"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ListView
+        android:id="@+id/userList"
+        android:layout_width="147dp"
+        android:layout_height="144dp"
+        android:background="@drawable/layout_round_white"
+        app:layout_constraintBottom_toBottomOf="@+id/listView"
+        app:layout_constraintEnd_toEndOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/userText" />
+
+    <EditText
+        android:id="@+id/userText"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:autofillHints=""
+        android:inputType="text"
+        android:maxLines="1"
+        app:layout_constraintEnd_toEndOf="@+id/userList"
+        app:layout_constraintStart_toEndOf="@+id/searchButton"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:ignore="LabelFor" />
+
+    <ImageButton
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_round_red"
+        android:contentDescription="@string/search"
+        android:src="@android:drawable/ic_menu_search"
+        app:layout_constraintBottom_toBottomOf="@+id/userText"
+        app:layout_constraintStart_toStartOf="@+id/userList"
+        app:layout_constraintTop_toTopOf="@+id/userText" />
+
+    <Button
+        android:id="@+id/messageButton"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:background="@drawable/layout_round_red"
+        android:text="@string/send"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/sendAMessage"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/messageText"
+        app:layout_constraintStart_toStartOf="@+id/messageText" />
+
+    <EditText
+        android:id="@+id/messageText"
+        android:gravity="top | start"
+        android:layout_width="match_parent"
+        android:layout_height="234dp"
+        android:layout_marginBottom="12dp"
+        android:autofillHints=""
+        android:background="@drawable/layout_round_white"
+        android:inputType="textMultiLine"
+        android:padding="20dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/messageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/friendText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/messageText"
+        app:layout_constraintEnd_toEndOf="@+id/messageText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

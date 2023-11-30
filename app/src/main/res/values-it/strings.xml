@@ -1,0 +1,142 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name" tools:ignore="PrivateResource">8-Beats</string>
+    <string name="register">Registrati</string>
+    <string name="login">Login</string>
+    <string name="username">Nome utente</string>
+    <string name="email">Indirizzo email</string>
+    <string name="psw">Password</string>
+    <string name="search">Cerca</string>
+    <string name="map">Mappa</string>
+    <string name="search_local_activities">Cerca locali</string>
+    <string name="access_token_mapbox">pk.eyJ1IjoicGF1bHJ1bSIsImEiOiJja3NpeGZnbXYxb2w2Mm9vZndlaGtucXZhIn0.rGtJsLsH1jrJfK3_VnvYoA</string>
+    <string name="user_image">Immagine utente</string>
+    <string name="create_band">Crea</string>
+    <string name="join_band">Unisciti</string>
+    <string name="leave_band">Abbandona</string>
+    <string name="bands">Bands</string>
+    <string name="band_name">Nome</string>
+    <string name="band_genre">Genere</string>
+    <string name="band_country">Paese</string>
+    <string name="band_city">Città</string>
+    <string name="role">Ruolo</string>
+    <string name="your_role_in_the_band">Il tuo ruolo</string>
+    <string name="search_bands">Cerca bands</string>
+    <string name="clubs">Locali</string>
+    <string name="profile">Profilo</string>
+    <string name="category">Categoria</string>
+    <string name="your_club">Il tuo locale</string>
+    <string name="address">Indirizzo</string>
+    <string name="description">Descrizione :</string>
+    <string name="modify">Modifica</string>
+    <string name="delete">Elimina</string>
+    <string name="none">none</string>
+    <string name="name">Nome</string>
+    <string name="delete_club_message">Vuoi eliminare il collegamento con il locale ?</string>
+    <string name="logout">Logout</string>
+    <string name="sendAMessage">Invia un messaggio</string>
+    <string name="owner">Proprietario</string>
+    <string name="your_bands">Le tue bands</string>
+    <string name="send">Invia</string>
+    <string name="your_friends">I tuoi amici</string>
+    <string name="events">Eventi</string>
+    <string name="events_and_postings">Eventi e Annunci</string>
+    <string name="add">Aggiungi</string>
+    <string name="postings">Annunci</string>
+    <string name="y_postings">I tuoi annunci</string>
+    <string name="type">Tipo</string>
+    <string name="object_">Oggetto :</string>
+    <string name="date">Data :</string>
+    <string name="band">Band :</string>
+    <string name="no_date_selected">Nessuna data selezionata</string>
+    <string name="not_joining">Non fai parte di nessuna band</string>
+    <string name="member_of">Membro di</string>
+    <string name="as_">come</string>
+    <string name="claim_a_club_first">Rivendica un locale prima</string>
+    <string name="band_created_succ">Band creata con successo</string>
+    <string name="empty_field">Assicurati che nessun campo sia vuoto</string>
+    <string name="band_role_empty">Assicurati di aver selezionato una band e un ruolo</string>
+    <string name="band_joined">Ora fai parte di una band</string>
+    <string name="band_left">Hai lasciato una band</string>
+    <string name="one_band_selected">Assicurati di aver selezionato una band</string>
+    <string name="club_claimed">Locale reclamato con successo</string>
+    <string name="clun_already_claimed">Il locale è stato reclamato da un altro utente</string>
+    <string name="error_search">Errore nella ricerca</string>
+    <string name="claim_club">Reclama un locale</string>
+    <string name="create">Crea</string>
+    <string name="cancel">Indietro</string>
+    <string name="join">Unisciti</string>
+    <string name="already_a_member">Sei già un membro di questa band</string>
+    <string name="leave">Lascia</string>
+    <string name="new_desc">Nuova descrizione</string>
+    <string name="new_desc_added">Nuova descrizione aggiunta</string>
+    <string name="change">Cambia</string>
+    <string name="claim">Reclama</string>
+    <string name="club_deleted">Il locale non ti appartiene più</string>
+    <string name="unbind_club">Libera locale</string>
+    <string name="unbind">Libera</string>
+    <string name="friend_added">Amico aggiunto</string>
+    <string name="message_sended">Messaggio inviato</string>
+    <string name="club_info">Info locale</string>
+    <string name="friend_deleted">Amico eliminato</string>
+    <string name="logged">Login effettuato</string>
+    <string name="cannot_login">Login non riuscito :</string>
+    <string name="error_occured">Errore : </string>
+    <string name="searching">"Ricerca… "</string>
+    <string name="loc_permissions">Devi attivare i permessi di locazione</string>
+    <string name="loc_work_properly">I permessi di locazione sono richiesti per il corretto funzionamento dell\' app</string>
+    <string name="message_deleted">Messaggio eliminato</string>
+    <string name="from">Da: </string>
+    <string name="time">Data e ora : </string>
+    <string name="to">A: </string>
+    <string name="message">Messaggio :</string>
+    <string name="post_deleted">Annuncio eliminato</string>
+    <string name="event_deleted">Evento eliminato</string>
+    <string name="register_success">Adesso sei registrato</string>
+    <string name="already_registered">Sei già registrato</string>
+    <string name="invalid_username">Nome utente non valido</string>
+    <string name="invalid_password">Password non valida</string>
+    <string name="passwords_different">Le password sono differenti</string>
+    <string name="event_added">Evento aggiunto</string>
+    <string name="post_added">Annuncio aggiunto</string>
+    <string name="nickname">Nome utente : </string>
+    <string name="email_2">Email : </string>
+    <string name="bands_2">Bands : </string>
+    <string name="club_2">locale : </string>
+    <string name="name_2">Nome : </string>
+    <string name="genre_2">Genere : </string>
+    <string name="country_2">Paese : </string>
+    <string name="city_2">Città : </string>
+    <string name="members">Membri : </string>
+    <string name="requested_by">Richiesto da : </string>
+    <string name="at">"A  "</string>
+    <string name="in_concert">" in concerto"</string>
+    <string name="more_info">"Altre info : "</string>
+    <string name="searchUsers">Cerca Utenti</string>
+    <string name="friend_info">Info Amico</string>
+    <string name="ask_for_friendship">Vuoi aggiungerlo come amico ?</string>
+    <string name="already_friends">Siete già amici</string>
+    <string name="add_friend">Aggiungi amico</string>
+
+
+    <string-array name="choices">
+        <item>Brewery</item>
+        <item>Beer</item>
+        <item>Concert</item>
+        <item>Concert Hall</item>
+        <item>Club</item>
+        <item>Disco</item>
+        <item>Music</item>
+        <item>Pub</item>
+        <item>Restaurant</item>
+        <item>Theater</item>
+        <item>Winery</item>
+    </string-array>
+
+    <string-array name="postsAndEvents">
+        <item>Annunci</item>
+        <item>Eventi</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#f60000</item>
+        <item name="colorPrimaryDark">@android:color/holo_red_light</item>
+        <item name="colorAccent">@android:color/holo_red_dark</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="android:Widget.Holo.Light.ActionBar">
+    </style>
+</resources>

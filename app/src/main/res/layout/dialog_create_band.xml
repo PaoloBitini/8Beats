@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="30dp">
+
+    <EditText
+        android:id="@+id/create_band_band_name"
+        android:layout_width="370dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/band_name" />
+
+    <EditText
+        android:id="@+id/create_band_genre"
+        android:layout_width="370dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/band_genre"
+        android:layout_below="@id/create_band_band_name"/>
+
+    <EditText
+        android:id="@+id/create_band_country"
+        android:layout_width="370dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/band_country"
+        android:layout_below="@id/create_band_genre"/>
+
+    <EditText
+        android:id="@+id/create_band_city"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/band_city"
+        android:layout_below="@id/create_band_country"/>
+
+    <EditText
+        android:id="@+id/create_band_role"
+        android:layout_width="370dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/your_role_in_the_band"
+        android:layout_below="@id/create_band_city"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/bands">
+        <menu>
+            <item
+                android:id="@+id/create_band"
+                android:icon="@drawable/create"
+                android:title="@string/create_band" />
+            <item
+                android:id="@+id/join_band"
+                android:icon="@drawable/join"
+                android:title="@string/join_band" />
+            <item
+                android:id="@+id/leave_band"
+                android:icon="@drawable/leave"
+                android:title="@string/leave_band" />
+        </menu>
+    </item>
+    <item android:title="@string/clubs">
+        <menu>
+            <item
+                android:id="@+id/clubs"
+                android:icon="@drawable/beer"
+                android:title="@string/clubs" />
+        </menu>
+    </item>
+    <item android:title="@string/events_and_postings">
+        <menu>
+            <item
+                android:id="@+id/events_and_posts"
+                android:icon="@drawable/writing"
+                android:title="@string/add" />
+        </menu>
+    </item>
+    <item android:title="@string/profile">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/settings"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:layout_marginTop="?actionBarSize"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/YourClubTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_club"
+        android:layout_marginBottom="30dp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <TextView
+        android:id="@+id/clubNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/clubName"
+        android:text="@string/none"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:id="@+id/addressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <TextView
+        android:id="@+id/address"
+        android:text="@string/none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/description"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <TextView
+        android:textColor="@android:color/black"
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/none"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:background="@drawable/layout_round_red"
+            android:textColor="@android:color/black"
+            android:id="@+id/modifyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modify"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:layout_marginEnd="50dp"/>
+        <Button
+            android:background="@drawable/layout_round_red"
+            android:textColor="@android:color/black"
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:textSize="20sp"
+            android:padding="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

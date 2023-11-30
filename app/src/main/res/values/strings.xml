@@ -1,0 +1,142 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name" tools:ignore="PrivateResource">8-Beats</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="email">Email Address</string>
+    <string name="psw">Password</string>
+    <string name="search">Search</string>
+    <string name="map">Map</string>
+    <string name="search_local_activities">Search local activities</string>
+    <string name="access_token_mapbox">pk.eyJ1IjoicGF1bHJ1bSIsImEiOiJja3NpeGZnbXYxb2w2Mm9vZndlaGtucXZhIn0.rGtJsLsH1jrJfK3_VnvYoA</string>
+    <string name="user_image">User image</string>
+    <string name="create_band">Create band</string>
+    <string name="join_band">Join band</string>
+    <string name="leave_band">Leave band</string>
+    <string name="bands">Bands</string>
+    <string name="band_name">Band Name</string>
+    <string name="band_genre">Genre</string>
+    <string name="band_country">country</string>
+    <string name="band_city">city</string>
+    <string name="role">Role</string>
+    <string name="your_role_in_the_band">Your role in the band</string>
+    <string name="search_bands">Search for bands</string>
+    <string name="clubs">Clubs</string>
+    <string name="profile">Profile</string>
+    <string name="category">Category</string>
+    <string name="your_club">Your Club</string>
+    <string name="address">Address</string>
+    <string name="description">Description : </string>
+    <string name="modify">Modify</string>
+    <string name="delete">Delete</string>
+    <string name="none">none</string>
+    <string name="name">Name</string>
+    <string name="delete_club_message">Are you sure want to unbind your club ?</string>
+    <string name="logout">Logout</string>
+    <string name="sendAMessage">Send a message</string>
+    <string name="owner">owner</string>
+    <string name="your_bands">Your Bands</string>
+    <string name="send">Send</string>
+    <string name="your_friends">Your friends</string>
+    <string name="events">events</string>
+    <string name="events_and_postings">Events and Postings</string>
+    <string name="add">Add</string>
+    <string name="postings">Postings</string>
+    <string name="y_postings">Your Postings</string>
+    <string name="type">Type</string>
+    <string name="object_">Object : </string>
+    <string name="date">Date : </string>
+    <string name="band">Band : </string>
+    <string name="no_date_selected">No date selected</string>
+    <string name="not_joining">Your are not joining any band</string>
+    <string name="member_of">Member of</string>
+    <string name="as_">as</string>
+    <string name="claim_a_club_first">Claim a club first</string>
+    <string name="band_created_succ">Band created successfully</string>
+    <string name="empty_field">Make sure every field is not empty</string>
+    <string name="band_role_empty">Make sure you have selected a band and the role</string>
+    <string name="band_joined">You joined a band !!</string>
+    <string name="band_left">You successfully left the bands</string>
+    <string name="one_band_selected">Make sure you have selected at least one band</string>
+    <string name="club_claimed">Club claimed successfully</string>
+    <string name="clun_already_claimed">The club is already claimed by another user</string>
+    <string name="error_search">Error on search</string>
+    <string name="claim_club">Claim Club</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+    <string name="join">Join</string>
+    <string name="already_a_member">You are already a member of this band</string>
+    <string name="leave">Leave</string>
+    <string name="new_desc">New description</string>
+    <string name="new_desc_added">New description added</string>
+    <string name="change">Change</string>
+    <string name="claim">Claim</string>
+    <string name="club_deleted">Club unbinded successfully</string>
+    <string name="unbind_club">Unbind club</string>
+    <string name="unbind">Unbind</string>
+    <string name="friend_added">Friend added</string>
+    <string name="message_sended">Message sended</string>
+    <string name="club_info">Club info</string>
+    <string name="friend_deleted">Friend deleted</string>
+    <string name="logged">You are logged</string>
+    <string name="cannot_login">Cannot login : </string>
+    <string name="error_occured">An error occurred : </string>
+    <string name="searching">Searching… </string>
+    <string name="loc_permissions">You have to allow location permission</string>
+    <string name="loc_work_properly">Location Permissions are needed for the app to work correctly</string>
+    <string name="message_deleted">Message deleted</string>
+    <string name="from">From : </string>
+    <string name="time">Time : </string>
+    <string name="to">To : </string>
+    <string name="message">Message : </string>
+    <string name="post_deleted">Post deleted</string>
+    <string name="event_deleted">Event deleted</string>
+    <string name="register_success">You are successfully registered</string>
+    <string name="already_registered">You are already registered</string>
+    <string name="invalid_username">Invalid Username</string>
+    <string name="invalid_password">Invalid Password</string>
+    <string name="passwords_different">Passwords are different</string>
+    <string name="event_added">Event added</string>
+    <string name="post_added">Post added</string>
+    <string name="nickname">Nickname : </string>
+    <string name="email_2">Email : </string>
+    <string name="bands_2">Bands : </string>
+    <string name="club_2">Club : </string>
+    <string name="name_2">Name : </string>
+    <string name="genre_2">Genre : </string>
+    <string name="country_2">Country : </string>
+    <string name="city_2">City : </string>
+    <string name="members">Members : </string>
+    <string name="requested_by">Requested by : </string>
+    <string name="at">"At  "</string>
+    <string name="in_concert">" in concert"</string>
+    <string name="more_info">"More info : "</string>
+    <string name="searchUsers">Search for Users</string>
+    <string name="friend_info">Friend Info</string>
+    <string name="ask_for_friendship">Do you want to add this user as friend ?</string>
+    <string name="already_friends">You are already friends</string>
+    <string name="add_friend">Add friend</string>
+
+
+    <string-array name="choices">
+        <item>Brewery</item>
+        <item>Beer</item>
+        <item>Concert</item>
+        <item>Concert Hall</item>
+        <item>Club</item>
+        <item>Disco</item>
+        <item>Music</item>
+        <item>Pub</item>
+        <item>Restaurant</item>
+        <item>Theater</item>
+        <item>Winery</item>
+    </string-array>
+
+    <string-array name="postsAndEvents">
+        <item>Posts</item>
+        <item>Events</item>
+    </string-array>
+
+
+</resources>

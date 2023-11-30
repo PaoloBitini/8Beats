@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@+id/searchButton"
+        android:layout_width="75dp"
+        android:layout_height="56dp"
+        app:srcCompat="@android:drawable/ic_menu_search"
+        android:contentDescription="@string/search_bands" />
+
+    <EditText
+        android:id="@+id/searchText"
+        android:layout_marginStart="30dp"
+        android:layout_width="229dp"
+        android:layout_height="46dp"
+        android:layout_toEndOf="@+id/searchButton"
+        android:ems="10"
+        android:hint="@string/search_bands"
+        android:inputType="textPersonName" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:choiceMode="singleChoice"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/searchButton"
+        android:layout_height="150dp">
+    </ListView>
+
+    <EditText
+        android:id="@+id/role_selection"
+        android:layout_width="match_parent"
+        android:hint="@string/role"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listView"
+        />
+
+</RelativeLayout>
