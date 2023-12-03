@@ -1,5 +1,6 @@
 # 8beats
-Mobile application for musicians and music lovers.
-- It helps bands and music artist to find places to perform
-- Keeps everyone updated on the latest concerts nearby
-- Keep in touch with friends and new artists
+Mobile application wrote in Kotlin for musicians and music enthusiasts:
+- Helps bands and music artist to find places for concerts
+- Keeps everyone updated on the available concerts nearby
+- Users can connect and make new friends
+
